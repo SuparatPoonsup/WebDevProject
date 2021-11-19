@@ -1,0 +1,1 @@
+alert("Hi There! Welcome to MaMa Bear Boutique!");

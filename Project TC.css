@@ -1,0 +1,279 @@
+
+Body {background-color:#f3c4c4;}
+
+.header {
+    padding:100px;
+    text-align: center;
+    background: #96AD90;
+    color: #ffffff;
+    background: url(./sweater4.jpeg) 50% 50% no-repeat;
+    opacity: 80%;
+}
+.header h1 {
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.header p {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #96AD90;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #3A4A3D;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: whitesmoke;
+    color: #086700;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: 
+        top:100px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F7D6C0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+    color: #96AD90;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: sienna;
+}
+
+
+
+
+.mcontent {
+    position: absolute;
+    width: 1122px;
+    height: 100%;
+    left: 310px;
+    top: 550px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mcontent h3 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    color: #4d5e50;
+    display: block;
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+{box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #96AD90;
+    color: #F4B9B8;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #96AD90;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 280px;
+    padding: 10px;
+    background-color: #96AD90;
+    color:#F4B9B8;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 87%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border:solid 1px lightgrey;
+    background: #96AD90;
+    resize: none;
+    min-height: 250px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #96AD90;
+  max-width: 250px;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 280px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(255, 82, 82);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}
+
+
+/*product card*/
+.card1 {
+    box-shadow: 0 4px 8px 0 #4d5e50;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    left: 320px;
+    top: 650px;
+}
+.price1 {
+    color: grey;
+    font-size: 22px;
+}
+.card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #4d5e50;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card1 button:hover {
+    opacity: 0.7;
+}
+.card1 h1 {
+    color: #4d5e50
+}
+.card1 p {
+    color: #4d5e50
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 #4d5e50;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    left: 640px;
+    top: 650px;
+}
+.price2 {
+    color: grey;
+    font-size: 22px;
+}
+.card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #4d5e50;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card2 button:hover {
+    opacity: 0.7;
+}
+.card2 h1 {
+    color: #4d5e50
+}
+.card2 p {
+    color: #4d5e50
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 #4d5e50;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    left: 960px;
+    top: 650px;
+}
+.price3 {
+    color: grey;
+    font-size: 22px;
+}
+.card3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #4d5e50;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card3 button:hover {
+    opacity: 0.7;
+}
+.card3 h1 {
+    color: #4d5e50
+}
+.card3 p {
+    color: #4d5e50
+}

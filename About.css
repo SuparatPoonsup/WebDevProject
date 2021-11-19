@@ -1,0 +1,44 @@
+Body {background-color:#F4B9B8;}
+
+.header {
+    padding:100px;
+    text-align: center;
+    background: #F4B9B8;
+    color: #ffffff;
+    background: url(./sweater4.jpeg) 50% 50% no-repeat;
+    opacity: 80%;
+}
+.header h1 {
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.header p {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #96AD90;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #3A4A3D;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a:hover {
+    background-color: whitesmoke;
+    color: #086700;
+}
+
+.about { 
+    color: #3A4A3D ;
+    background-color: #F4B9B8;
+    padding:100px;
+}

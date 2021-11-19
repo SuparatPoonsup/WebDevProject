@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./Project TC.css">
+    <script src="./Project TC.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>MAMA BEAR</h1>
+        <p>Boutique</p>
+      
+      </div>
+      
+      
+      <div class="navbar">
+          <a href="./Home.html">Home</a>
+          <a href="./Project TC.html">Shop</a>
+          <a href="./About.html">About</a>
+          <a href="#" class="right">Cart</a>
+      </div>
+      
+      
+      <div id="mySidenav" class="sidenav">
+        <a href="./Project TC.html">New Items</a>
+        <a href="./Top.html">Tops</a>
+        <a href="./Bottoms.html">Bottoms</a>
+        <a href="./Accessories.html">Accessories</a>
+      </div>
+      
+      
+      
+      
+      <div id="main" class="mcontent">
+        <h3>Tops</h3>
+      </div>
+      
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Ask Me Questions</h1>
+      
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+      
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+      
+      
+      
+      
+      
+      <div class="card1">
+        <img src="./top1.jpeg" alt="Grey Sweater" style="width:100%">
+        <h1>Grey Sweater</h1>
+        <p class="price1">$49.99</p>
+        <p>Cozy Knitted Sweater for Christmas Holidays. 60% Cotton 40% Wool</p>
+        <button onClick="addGreySweaterToCart()">Add to Cart</button>
+      </div>
+      
+      <div class="card2">
+        <img src="./top2.jpeg" alt="Crewneck Sweater" style="width:100%">
+        <h1>Crewneck Sweater</h1>
+        <p class="price2">$49.99</p>
+        <p>Cozy Knitted Sweater! 60% Cotton 40% Wool</p>
+        <button onClick="addCrewneckSweaterToCart()">Add to Cart</button>
+      </div>
+      
+      <div class="card3">
+        <img src="./top3.jpeg" alt="Pink Sweater" style="width:100%">
+        <h1>Pink Sweater</h1>
+        <p class="price3">$49.99</p>
+        <p>Cozy White Knitted Sweater! 60% Cotton 40% Wool</p>
+        <button onClick="addPinkSweaterToCart()">Add to Cart</button>
+      </div>
+      
+    
+
+
+
+
+
+
+
+</body>
+</html>
